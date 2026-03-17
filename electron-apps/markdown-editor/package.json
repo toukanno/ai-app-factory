@@ -1,0 +1,10 @@
+{
+  "name": "markdown-editor",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "description": "Starter for Markdown Editor"
+}

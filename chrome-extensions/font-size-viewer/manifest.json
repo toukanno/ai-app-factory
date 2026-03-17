@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Font Size Viewer",
+  "version": "0.1.0",
+  "description": "Starter extension for Font Size Viewer.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Font Size Viewer"
+  }
+}

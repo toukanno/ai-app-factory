@@ -1,0 +1,10 @@
+{
+  "name": "json-formatter",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "description": "Starter for Json Formatter"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "shortcut-launcher",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "description": "Starter for Shortcut Launcher"
+}

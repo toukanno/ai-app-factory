@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Margin Padding Viewer",
+  "version": "0.1.0",
+  "description": "Starter extension for Margin Padding Viewer.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Margin Padding Viewer"
+  }
+}
