@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Color Picker",
+  "version": "0.1.0",
+  "description": "Starter extension for Color Picker.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Color Picker"
+  }
+}

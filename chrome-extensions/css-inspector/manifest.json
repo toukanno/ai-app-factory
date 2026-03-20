@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Css Inspector",
+  "version": "0.1.0",
+  "description": "Starter extension for Css Inspector.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Css Inspector"
+  }
+}
