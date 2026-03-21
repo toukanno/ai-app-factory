@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Inspector",
+  "version": "1.0.0",
+  "description": "Hover over any element to inspect its CSS properties — margin, padding, font-size, and dimensions.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}

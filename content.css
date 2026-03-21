@@ -1,0 +1,59 @@
+/* ===== CSS Inspector Tooltip ===== */
+#css-inspector-tooltip {
+  position: fixed;
+  z-index: 2147483647;
+  pointer-events: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: rgba(24, 24, 27, 0.92);
+  color: #f4f4f5;
+  font-family: "SF Mono", "Fira Code", "Cascadia Code", ui-monospace, monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  max-width: 340px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+#css-inspector-tooltip.visible {
+  opacity: 1;
+}
+
+#css-inspector-tooltip .inspector-tag {
+  color: #a78bfa;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 5px;
+}
+
+#css-inspector-tooltip .inspector-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 2px 0;
+}
+
+#css-inspector-tooltip .inspector-label {
+  color: #a1a1aa;
+}
+
+#css-inspector-tooltip .inspector-value {
+  color: #67e8f9;
+  font-weight: 500;
+}
+
+/* ===== Element highlight outline ===== */
+#css-inspector-highlight {
+  position: fixed;
+  z-index: 2147483646;
+  pointer-events: none;
+  border: 2px solid #a78bfa;
+  border-radius: 2px;
+  background: rgba(167, 139, 250, 0.06);
+  transition: all 0.1s ease;
+}
